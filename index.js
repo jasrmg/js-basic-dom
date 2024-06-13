@@ -9,6 +9,6 @@ let color = false;
 btn2.addEventListener('click', () => {
   color = !color;
   let body = document.body;
-  return body.style.backgroundColor = color ? "lightblue" : "white";
+  return body.style.background = color ? "lightblue" : "white";
 })
 
